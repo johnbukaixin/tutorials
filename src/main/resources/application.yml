@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    host: 192.168.3.242
+    port: 5672
+    username: admin
+    password: mytijian
+    virtual-host: /
+  profiles:
+    active: usage_message
+logging:
+  level: error
+tutorial:
+  client:
+    duration: 10000
